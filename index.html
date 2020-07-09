@@ -147,6 +147,19 @@
                                               </svg>
                                         </div>
                                     </div>
+                                    <!-- js -->
+                                    <!-- 以下のコードは必要 -->
+                                    <div class="text-center mt-2" id="app"></div>
+                                    <script type="text/jsx" src="js/sample.js"></script>
+                                    <script type="text/javascript">
+                                        window.onload = function() {
+                                            setInterval(function() {
+                                            var dd = new Date();
+                                            document.getElementById("T1").innerHTML = dd.toLocaleString();
+                                            }, 1000);
+                                        }
+                                        <div id="T1"></div>
+                                    </script>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +167,7 @@
                 </div>
                 <!-- ツイートのテストここまで -->
                 <!-- サイドバー -->
-                <div class="col-md-3">
+                <div class="col-mt-3">
                     <div class="sticky-top">
                         <ul class="list-group">
                             <li class="list-group-item">はじめての方へ</li>
@@ -165,17 +178,14 @@
                 </div>
             </div>
         </div>
-        <!-- js -->
-        <!-- 以下のコードは必要 -->
-        <div id="app"></div>
-        <script type="text/jsx" src="/js/sample.js"></script>
     </main>
 
 
 
     <!-- コピーライト -->
     <!-- 下に固定 -->
-    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+    <!-- <footer class="footer mt-auto py-3 bg-light fixed-bottom"> -->
+    <footer class="footer mt-5 py-3 bg-light">
         <div class="container text-center">
             <span class="text-muted">Copyright (c) 2020 anonimo ALL RIGHTS RESERVED. </span>
         </div>
