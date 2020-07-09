@@ -11,20 +11,26 @@
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
 
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
     <title>anonimo</title>
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <!-- anonimo -->
         <a class="navbar-brand" href="#">anonimo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- 検索フォーム -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <form class="form-inline mt-2 mt-md-0 text collapse navbar-collapse justify-content-center">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
+        <!-- signin signup -->
         <div class="">
             <form class="form-inline mt-2 mt-md-0 text">
                 <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Sigh in</button>
@@ -35,48 +41,6 @@
 </head>
 
 <!-- ------------------------------------------------------------ -->
-
-<!-- ヘッダ -->
-<!-- <body style="padding-top: 50px;">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="zunda_lab_pictonly_transparent_60x60.png" width="30"
-                height="30" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./login.html">ログイン</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown">
-                        メニュー
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">HOME</a>
-                        <a class="dropdown-item" href="#">通知</a>
-                        <a class="dropdown-item" href="#">ブックマーク</a>
-                        <a class="dropdown-item" href="#">投稿</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="キーワードを入力">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
-            </form>
-        </div>
-    </nav> -->
-
-    <!-- タイトル -->
-    <!-- <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-            <h1 class="display-3">anonimo</h1>
-            <p class="lead">ー 名前を隠して気軽に質問 ー</p>
-        </div>
-    </div> -->
 
     <main role="main" class="flex-shrink-0 mt-5">
         <!-- <div class="container">
@@ -99,88 +63,84 @@
                         </ul>
                     </div>
                 </div>
+                <!-- メイン -->
                 <div class="col-md-7 id=main">
-                    <div class="alert alert-primary" role="alert">
-                        A simple primary alert—check it out!
-                        <button type="button" class="btn btn-primary btn-sm float-right" href="#" role="button">回答</button>
+                    <!-- <div class="media border"> -->
+                    <div class="border rounded-lg">
+                        <div class="media-left">
+                            <a href="#">
+                                <!-- <img class="media-object" src="..." alt="..."> -->
+                                <span class="fas fa-coffee" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="media-body ml-3">
+                            <!-- 質問のタイトル -->
+                            <h4 class="media-heading">SBとは</h4>
+                            SBって何ですか。
+                        </div>
                     </div>
-                    <div class="alert alert-secondary" role="alert">
-                        A simple secondary alert—check it out!
-                        <button type="button" class="btn btn-secondary btn-sm float-right" href="#" role="button">回答</button>
-                    </div>
-                    <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                    <button type="button" class="btn btn-outline-success btn-sm float-right">回答</button>
-                    </div>
-                    <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                    A simple danger alert—check it out!
-                    A simple danger alert—check it out!
-                    A simple danger alert—check it out!
-                    A simple danger alert—check it out!
-                    <button type="button" class="btn btn-outline-danger btn-sm float-right">回答</button>
-                    </div>
-                    <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                    </div>
-                    <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                    </div>
-                    <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                    </div>
-                    <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
-                    </div>
-                    <div class="alert alert-primary" role="alert">
-                        A simple primary alert—check it out!
-                    </div>
-                    <div class="alert alert-secondary" role="alert">
-                        A simple secondary alert—check it out!
-                    </div>
-                    <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                    </div>
-                    <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                    </div>
-                    <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                    </div>
-                    <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                    </div>
-                    <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                    </div>
-                    <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
-                    </div>
-                    <div class="alert alert-primary" role="alert">
-                        A simple primary alert—check it out!
-                    </div>
-                    <div class="alert alert-secondary" role="alert">
-                        A simple secondary alert—check it out!
-                    </div>
-                    <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                    </div>
-                    <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                    </div>
-                    <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                    </div>
-                    <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                    </div>
-                    <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                    </div>
-                    <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
+                    <!-- ここからツイートのテスト -->
+                    <!-- ツイートのテスト -->
+                    <div class="container bg-light">
+                        <div class="col align-items-center">
+                            <div class="row">
+                                dummy
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2 badge-primary">
+                                    <div class="row">icon</div>
+                                </div>
+                                <div class="col-sm-10 badge-success">
+                                    <!-- 上部の情報 -->
+                                    <div class="row">
+                                        <div class="col-sm-6 badge-secondary">質問タイトル</div>
+                                        <div class="col-sm-3 badge-danger">user</div>
+                                        <div class="col-sm-3 badge-warning">time</div>
+                                    </div>
+                                    <!-- 質問の内容 -->
+                                    <div class="row">
+                                        質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容
+                                    </div>
+                                    <!-- いいねとか -->
+                                    <div class="row">
+                                        <div class="col-sm-6 badge-info">返信</div>
+                                        <div class="col-sm-6 badge-muted">いいね</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row -->
+                        <div class="col align-items-center">
+                            <div class="row">
+                                dummy
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2 badge-primary">
+                                    <div class="row">icon</div>
+                                </div>
+                                <div class="col-sm-10 badge-success">
+                                    <!-- 上部の情報 -->
+                                    <div class="row">
+                                        <div class="col-sm-6 badge-secondary">質問タイトル</div>
+                                        <div class="col-sm-3 badge-danger">user</div>
+                                        <div class="col-sm-3 badge-warning">time</div>
+                                    </div>
+                                    <!-- 質問の内容 -->
+                                    <div class="row">
+                                        質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容質問の内容
+                                    </div>
+                                    <!-- いいねとか -->
+                                    <div class="row">
+                                        <div class="col-sm-6 badge-info">返信</div>
+                                        <div class="col-sm-6 badge-muted">いいね</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- ツイートのテストここまで -->
+                <!-- サイドバー -->
                 <div class="col-md-3">
                     <div class="sticky-top">
                         <ul class="list-group">
@@ -194,38 +154,12 @@
           </div>
     </main>
 
-    
 
-    <!-- <div class="container-fluid">
-        <div class="card-deck m-6">
-            <div class="card">
-                <a href="detail.html">
-                    <img src="img/Tatsuya_OHKAWA_01.jpg" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                    <h3 class="card-title h4"><a href="detail.html" class="text-dark">大川竜弥</a></h3>
-                    <h6 class="card-subtitle text-secondary">オオカワタツヤ</h6>
-                </div>
-            </div>
-            <div class="card">
-                <a href="detail.html">
-                    <img src="img/Yuka_KAWAMURA_01.jpg" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                    <h3 class="card-title h4"><a href="detail.html" class="text-dark">河村友歌</a></h3>
-                    <h6 class="card-subtitle text-secondary">カワムラユカ</h6>
-                </div>
-            </div>
-        </div> -->
-
-
-
-        
 
     <!-- コピーライト -->
-    <footer class="footer mt-auto py-3 bg-light">
+    <!-- 下に固定 -->
+    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
         <div class="container text-center">
-            <!-- <span class="text-muted">Copyright (c) 2019 ZUNDA GEINO ALL RIGHTS RESERVED.</span> -->
             <span class="text-muted">Copyright (c) 2020 anonimo ALL RIGHTS RESERVED. </span>
         </div>
     </footer>
